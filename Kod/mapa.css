@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    padding: 4px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url('tlo4.jpg');
+    background-size: cover;
+}
+
+#lewo {
+    width: 33%;
+    height: 677.6px;
+    float: left;
+
+}
+
+#srodek {
+    width: 33%;
+    height: 98%;
+    max-width: 480px;
+    max-height: 677.6px;
+    height: 100%;
+    float: left;
+    background-image: url('mp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.3s linear, opacity 1.3s linear;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 5px solid #ba7c25;
+    box-shadow: 0px 2px 10px 10px #d4a422;
+
+}
+
+
+
+#prawo {
+    width: 33%;
+    height: 677.6px;
+    float: left;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+h1 {
+    color: white;
+}
+
+#podpis {
+    width: 100%;
+    height: 90px;
+    color: white;
+    margin-top: 50%;
+}
+
+#powrot {
+    width: 90px;
+    height: 40px;
+    color: #8c4a03;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: #ba7c25;
+}
+
+#powrot:hover {
+    background-color: bisque;
+    box-shadow: 0px 2px 5px 5px #d4a422;
+}
+
+#powrot h1 {
+    border: 3px solid saddlebrown;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    color: #8c4a03;
+
+}
+
+#powrot h1:hover {
+    color: black;
+}
+
+#powrot a {
+    text-decoration: none;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+#powrot a:hover {
+    color: black;
+}
+
+.flaga {
+    width: 170px;
+    height: 80px;
+}
+
+#hermiona {
+    position: relative;
+    left: 130px;
+    top: 370px;
+}
+
+#harry {
+    position: relative;
+    top: 650px;
+}
+
+#ron {
+    position: relative;
+    top: -20px;
+    left: 0px;
+
+}
+
+#albus {
+    position: relative;
+    top: 210px;
+
+}
+
+
+#przycisk {
+    width: 310px;
+    height: 40px;
+    font-weight: bold;
+    color: #8c4a03;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: #ba7c25;
+    font-size: 28px;
+    border: 3px solid saddlebrown;
+}
+
+#przycisk:hover {
+
+    background-color: bisque;
+    box-shadow: 0px 2px 5px 5px #d4a422;
+    color: black;
+}

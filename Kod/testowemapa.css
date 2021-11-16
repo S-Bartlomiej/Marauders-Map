@@ -1,0 +1,278 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../grafika/tło/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kontener
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+#przycisk-obszar
+{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+#przycisk-sterowanie
+{
+    width: 333px;
+    height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25%;
+}
+
+#przycisk {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(2, 59, 40);
+    border: 3px solid rgb(1, 87, 36);
+    transition: all 0.3s;
+}
+
+#przycisk:hover {
+
+    transform: scale(1.2,1.2);
+    
+}
+
+#obszar-mapa{
+    width: 400px;
+    height: 558px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(2, 59, 40);
+    box-shadow: 0px 0px 40px 5px rgb(2, 59, 40);
+    position: relative;
+    top: 15%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.3s linear, opacity 1.3s linear;
+
+}
+
+#mapa
+{
+    width: 400px;
+    height: 550px;
+    background-image: url('./mp.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-left: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.3s linear, opacity 1.3s linear;
+}
+
+#hermiona {
+    position: relative;
+    left: 55px;
+    top: 230px;
+}
+
+#harry {
+    position: relative;
+    top: 470px;
+    left: -15px;
+}
+
+#ron {
+    position: relative;
+    top: -90px;
+    left: -5px;
+
+}
+
+#albus {
+    position: relative;
+    top: 120px;
+    left: -75px;
+
+}
+
+.flaga {
+    width: 170px;
+    height: 80px;
+}
+
+
+#obszar-podpis
+{
+    width: 300px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 17%;
+}
+
+#obszar-podpis a
+{
+    text-decoration: none;
+}
+
+#podpis
+{
+    
+    font-size: 36px;
+    color: white;
+    font-family: Allison;
+    text-align: center;
+    background-color: rgb(2, 59, 40);
+    border: 3px solid rgb(1, 87, 36);
+    border-radius: 15px;
+}
+
+#powrot
+{
+    font-size: 36px;
+    text-decoration: none;
+    background-color: rgb(2, 59, 40);
+    border: 3px solid rgb(1, 87, 36);
+    border-radius: 15px;
+    padding: 15px;
+    color: black;
+    transition: all 0.3s;
+    text-align: center;
+    width: 120px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#powrot:hover
+{
+    transform: scale(1.2,1.2);
+} 
+
+#telefon {
+    display: none;
+}
+
+@media (min-width: 1px) and (max-width: 360px)
+{
+    body{
+        height: 2000px;
+        background-position: center left;
+    }
+
+    #przycisk-obszar
+    {
+        width: 415px;
+    }
+
+    #obszar-mapa
+    {
+        margin-left: 7.5px;
+    }
+
+    #mapa 
+    {
+        width: 100%;
+    }
+
+    #obszar-podpis
+    {
+        width: 405px;
+    }
+
+    #podpis 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+    
+    #telefon {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 400px)
+{
+    body{
+        height: 2000px;
+        background-position: center left;
+    }
+
+    #przycisk-obszar
+    {
+        width: 430px;
+    }
+
+    #obszar-mapa
+    {
+        margin-left: 15px;
+    }
+
+    #obszar-podpis
+    {
+        width: 430px;
+    }
+
+    #telefon {
+        display: none;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 769px)
+
+{
+    body{
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background-color: black;
+        
+    }
+
+    #przycisk-obszar
+    {
+        display: none;
+    }
+
+    #obszar-mapa
+    {
+        display: none;
+    }
+
+    #obszar-podpis
+    {
+        display: none;
+    }
+
+    #telefon {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        width: 85%;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 30%;
+    }
+}
